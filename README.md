@@ -143,6 +143,7 @@ We'll now use a handler to restart NGINX only when needed (e.g., if index.html c
   become: yes
   roles:
     - webserver
+```
 
 Running the Playbook
 ```
